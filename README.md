@@ -1,5 +1,5 @@
 # Lynxo — Archived Project
-
+[![DOI](https://zenodo.org/badge/1337090656.svg)](https://doi.org/10.5281/zenodo.21979071)
 **Status: paused by the author's own decision, not abandoned.** Everything
 needed to understand, verify, run, or continue this work is in this
 archive. See `Lynxo_Kadero_Project_Report_v1.md` for the full account —
