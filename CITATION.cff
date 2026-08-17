@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this work, a citation is welcomed but not required — see LICENSE."
+title: "Lynxo: The Kadero Embedding — A Learnable Geometric Representation for Power-Network Criticality"
+type: software
+authors:
+  - family-names: "Berassil"
+    given-names: "Abdelkader"
+    affiliation: "University of Mustapha Stambouli, Mascara, Algeria"
+date-released: 2026-08-17
+license: MIT
+repository-code: "https://github.com/dynaio/kadero-embedding"
+url: "https://berassil-abdelkader.web.app"
+keywords:
+  - power systems
+  - spectral graph theory
+  - effective resistance
+  - graph Laplacian
+  - graph embeddings
+  - electrical engineering
+  - criticality analysis
+  - contingency analysis
+  - machine learning
+abstract: >
+  An independent research project proposing the Kadero Embedding: a
+  differentiable, multi-channel high-dimensional vector-space
+  representation of a power network, combining electrical, geographic,
+  redundancy-structure, and operating-point information, each channel
+  backed by a proof. Includes a complete mathematical foundation and an
+  honestly-reported, self-correcting empirical validation program across
+  IEEE 14-, 30-, 118-bus and a 300-bus test network. Archived openly for
+  extension by the power-systems and applied-mathematics community.

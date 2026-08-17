@@ -1,0 +1,127 @@
+{
+  "network": "pandapower.networks.case300",
+  "n_bus": 300,
+  "n_edges": 411,
+  "n_bridges": 89,
+  "n_nonbridge": 322,
+  "random_seed": 42,
+  "reused_stage1_cache": true,
+  "experiment_a": {
+    "baseline": {
+      "rho_all": 0.676870297013565,
+      "p_all": 2.1967511868141154e-56,
+      "rho_nonbridge": 0.2047955162101447,
+      "p_nonbridge": 0.0002156647609243693,
+      "n_all": 411,
+      "n_nonbridge": 322
+    },
+    "learned": {
+      "rho_all": 0.6797081151602768,
+      "p_all": 5.090126474507786e-57,
+      "rho_nonbridge": 0.21509681150389523,
+      "p_nonbridge": 0.00010008019300796965,
+      "n_all": 411,
+      "n_nonbridge": 322
+    },
+    "learned_params": {
+      "mu": 0.27395604855596345,
+      "p": 2.7680859375000004
+    }
+  },
+  "experiment_b": {
+    "ridge_with_bridge": {
+      "rho_all": 0.6770706050556747,
+      "p_all": 1.9823930149856732e-56,
+      "rho_nonbridge": 0.21125299452139337,
+      "p_nonbridge": 0.0001338591365693393,
+      "n_all": 411,
+      "n_nonbridge": 322
+    },
+    "rf_with_bridge": {
+      "rho_all": 0.6287355904854618,
+      "p_all": 1.316517976129861e-46,
+      "rho_nonbridge": 0.05273746340745276,
+      "p_nonbridge": 0.3455191475723529,
+      "n_all": 411,
+      "n_nonbridge": 322
+    },
+    "gbr_with_bridge": {
+      "rho_all": 0.6488411600777656,
+      "p_all": 1.781514076936525e-50,
+      "rho_nonbridge": 0.11085400949776172,
+      "p_nonbridge": 0.046856165960483094,
+      "n_all": 411,
+      "n_nonbridge": 322
+    },
+    "ridge_without_bridge": {
+      "rho_all": 0.529873180541938,
+      "p_all": 3.971765542495384e-31,
+      "rho_nonbridge": 0.14913784911626754,
+      "p_nonbridge": 0.007344994258360745,
+      "n_all": 411,
+      "n_nonbridge": 322
+    },
+    "rf_without_bridge": {
+      "rho_all": 0.4912652260950874,
+      "p_all": 2.3480514964861504e-26,
+      "rho_nonbridge": -0.016758789230590886,
+      "p_nonbridge": 0.7644996333783046,
+      "n_all": 411,
+      "n_nonbridge": 322
+    },
+    "gbr_without_bridge": {
+      "rho_all": 0.5790938201564171,
+      "p_all": 3.5588610994546014e-38,
+      "rho_nonbridge": 0.08025769508675407,
+      "p_nonbridge": 0.1507489883426631,
+      "n_all": 411,
+      "n_nonbridge": 322
+    }
+  },
+  "bootstrap_ci_nonbridge": {
+    "Baseline kappa": {
+      "point": 0.2047955162101447,
+      "ci_low": 0.11945639579785575,
+      "ci_high": 0.2847923228180897,
+      "ci_level": 0.9,
+      "n": 322
+    },
+    "Learned kappa": {
+      "point": 0.21509681150389523,
+      "ci_low": 0.12203419643925101,
+      "ci_high": 0.30166807342382496,
+      "ci_level": 0.9,
+      "n": 322
+    },
+    "Ridge (with is_bridge)": {
+      "point": 0.21125299452139337,
+      "ci_low": 0.144834977666135,
+      "ci_high": 0.27213828518337957,
+      "ci_level": 0.9,
+      "n": 322
+    },
+    "Ridge (no is_bridge)": {
+      "point": 0.14913784911626754,
+      "ci_low": 0.05539339945748231,
+      "ci_high": 0.23583309666698657,
+      "ci_level": 0.9,
+      "n": 322
+    },
+    "GBR (no is_bridge)": {
+      "point": 0.08025769508675407,
+      "ci_low": -0.0019020719236961497,
+      "ci_high": 0.15725988942253732,
+      "ci_level": 0.9,
+      "n": 322
+    },
+    "RF (no is_bridge)": {
+      "point": -0.016758789230590886,
+      "ci_low": -0.12173974174629981,
+      "ci_high": 0.08460608176730408,
+      "ci_level": 0.9,
+      "n": 322
+    }
+  },
+  "total_wallclock_sec": 30.136274337768555,
+  "generated_at": "2026-08-16T08:36:26.228593+00:00"
+}

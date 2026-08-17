@@ -19,3 +19,12 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+This license applies to the entire contents of this repository, including
+the mathematical write-up and experimental reports (Lynxo_Kadero_Project_Report_v1.md
+and all files under results/), not only the code under code/. This is a
+deliberate choice to keep licensing simple: everything here may be used,
+modified, extended, and redistributed freely, including for publication,
+with or without attribution.

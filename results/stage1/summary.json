@@ -1,0 +1,82 @@
+{
+  "network": "pandapower.networks.case300",
+  "n_bus": 300,
+  "n_line": 283,
+  "n_trafo": 128,
+  "n_edges": 411,
+  "random_seed": 42,
+  "severity_model": {
+    "SEVERITY_NONCONVERGED": 1000.0,
+    "ISLANDING_BASE": 300.0,
+    "ISLANDING_PER_BUS": 5.0,
+    "OVERLOAD_PENALTY_PER_ELEMENT": 10.0,
+    "n_nonconverged": 19,
+    "n_islanding": 86
+  },
+  "baseline": {
+    "mu": 0.5,
+    "p": 1.0,
+    "spearman_vs_severity": 0.6776286595813669
+  },
+  "classical_betweenness": {
+    "spearman_vs_severity": -0.1531359978079564,
+    "spearman_vs_baseline_kappa": -0.04391719039741832
+  },
+  "learning": {
+    "method": "sequential one-parameter-at-a-time Hooke-Jeeves pattern search",
+    "max_evals_per_param": 1000,
+    "n_restarts_per_param": 5,
+    "target_spearman": 0.9,
+    "mu": {
+      "bounds": [
+        0.0,
+        1.0
+      ],
+      "best_value": 0.27395604855596345,
+      "best_score": 0.6821723756702955,
+      "evals_used": 55,
+      "reached_target": false,
+      "elapsed_sec": 0.7669661045074463
+    },
+    "p": {
+      "bounds": [
+        0.05,
+        5.0
+      ],
+      "best_value": 2.7676415248522463,
+      "best_score": 0.6832690371511397,
+      "evals_used": 169,
+      "reached_target": false,
+      "elapsed_sec": 2.0515637397766113
+    }
+  },
+  "final": {
+    "mu": 0.27395604855596345,
+    "p": 2.7676415248522463,
+    "spearman_vs_severity": 0.6832690371511397,
+    "improvement_over_baseline": 0.00564037756977287,
+    "target_reached": false
+  },
+  "theory_validation": {
+    "n_edges": 411,
+    "kappa_min": 0.12959987910012102,
+    "kappa_max": 1.0000000000000098,
+    "kappa_in_valid_range": true,
+    "conservation_target": 299,
+    "conservation_sum": 298.99999999999994,
+    "conservation_error": 5.684341886080802e-14,
+    "conservation_ok": true,
+    "n_true_bridges_networkx": 89,
+    "n_kappa_equals_one": 89,
+    "bridge_equivalence_mismatches": 0,
+    "bridge_equivalence_ok": true
+  },
+  "non_bridge_subset": {
+    "n_non_bridge_baseline": 322,
+    "spearman_baseline": 0.20479553461271507,
+    "n_non_bridge_learned": 306,
+    "spearman_learned": 0.1721056445467673
+  },
+  "total_wallclock_sec": 35.68040871620178,
+  "generated_at": "2026-08-15T23:33:06.258023+00:00"
+}
