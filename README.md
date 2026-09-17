@@ -61,5 +61,4 @@ experiment (`severity_variants_case300`) as containing a likely bug,
 documented rather than hidden — worth fixing before trusting its
 conclusion either way.
 
-No permission is needed to use, extend, correct, or publish any part of
-this. A citation is welcome if convenient, not required.
+This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to share and adapt this work, provided you give appropriate credit. If you use this work, please cite it using the information in the `CITATION.cff` file.
