@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this work, please cite it as below. Attribution is required under CC BY 4.0."
 title: "Lynxo: The Kadero Embedding — A Learnable Geometric Representation for Power-Network Criticality"
 type: software
-authors:
+authors: 
   - family-names: "Berassil"
     given-names: "Abdelkader"
     affiliation: "University of Mustapha Stambouli, Mascara, Algeria"
