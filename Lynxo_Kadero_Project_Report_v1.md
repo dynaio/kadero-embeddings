@@ -2,14 +2,48 @@
 
 ### Mathematical Foundations and Empirical Validation — Archive Edition v1.0
 
-**Author:** Abdelkader
-**Field:** Independent work by a student of Artificial Intelligence / Computer Science, outside the author's primary field of training (this project sits at the intersection of spectral graph theory and power-systems engineering, neither of which the author was formally trained in — stated here plainly, not as a disclaimer to be read past, but as context for how this document should be read).
-**Status: ARCHIVED, not abandoned.** The mathematical foundation (Section 3) is complete and, for its central claims, independently verified. The empirical validation program (Section 4) is honest, self-correcting, and currently inconclusive on the framework's central practical question. Development is paused, by the author's own informed decision, because completing it further requires depth in electrical engineering and applied mathematics beyond what one person working alone, without formal training in either field, can responsibly provide. It is archived, openly, in the hope that it may be useful, extended, corrected, or completed by someone with that depth — with or without further involvement from the original author, and with or without attribution, either of which the author would consider a good outcome.
+**Author:** Abdelkader Berassil  
+**Field:** Independent work by a student of Artificial Intelligence / Computer Science, outside the author's primary field of training. This project sits at the intersection of spectral graph theory and power-systems engineering, neither of which the author was formally trained in. This is stated plainly, not as a disclaimer to be read past, but as context for how this document should be read.
 
-**License and reuse.** This work — mathematics, code, and results — is released for unrestricted reuse, extension, correction, and publication by anyone who finds it useful. No permission is needed. A citation is welcomed if convenient but is not a condition of use.
+**Status: ARCHIVED, not abandoned.**  
+The mathematical foundation (Section 3) is complete and, for its central claims, independently verified. The empirical validation program (Section 4) is honest, self-correcting, and currently inconclusive on the framework's central practical question. Development is paused, by the author's own informed decision, because completing it further requires depth in electrical engineering and applied mathematics beyond what one person working alone, without formal training in either field, can responsibly provide. It is archived openly in the hope that it may be useful, extended, corrected, or completed by someone with that depth — with or without further involvement from the original author. **Attribution is required under the CC BY 4.0 license (see below).**
 
-**How to use this document:** Sections 1–3 (philosophy, related work, mathematics) are stable and should only change if the framework itself changes. Section 4 (experimental program) is an append-only log — Appendix C gives the exact template to paste a new experiment report into as a new subsection. Section 5 (discussion) and Section 6 (roadmap) should be revisited and edited each time a new experimental phase completes.
+---
 
+## License and Reuse
+
+This work — mathematics, code, and results — is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format.
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.
+
+Under the following terms:
+
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+**Attribution is required under the terms of this license.** If you use this work in academic or technical contexts, a citation is expected and appreciated.
+
+### How to Cite
+
+> Berassil, A. (2026). *Lynxo: The Kadero Embedding — A Learnable Geometric Representation for Power-Network Criticality* (Version V1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21979072
+
+---
+
+## How to Use This Document
+
+- **Sections 1–3** (philosophy, related work, mathematics) are stable and should only change if the framework itself changes.
+- **Section 4** (experimental program) is an append-only log. Appendix C gives the exact template to paste a new experiment report into as a new subsection.
+- **Section 5** (discussion) and **Section 6** (roadmap) should be revisited and edited each time a new experimental phase completes.
+
+---
+
+## Links
+
+- **Zenodo Archive:** https://zenodo.org/records/21979072  
+- **GitHub Repository:** https://github.com/dynaio/kadero-embeddings  
+- **Project Report:** [Lynxo_Kadero_Project_Report_v1.md](Lynxo_Kadero_Project_Report_v1.md)
 ---
 
 ## Abstract
