@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this work, a citation is welcomed but not required — see LICENSE."
+message: "If you use this work, please cite it as below. Attribution is required under CC BY 4.0."
 title: "Lynxo: The Kadero Embedding — A Learnable Geometric Representation for Power-Network Criticality"
 type: software
 authors:
@@ -8,7 +8,7 @@ authors:
     affiliation: "University of Mustapha Stambouli, Mascara, Algeria"
 date-released: 2026-08-17
 license: CC-BY-4.0
-repository-code: "https://github.com/dynaio/kadero-embedding"
+repository-code: "https://github.com/dynaio/kadero-embeddings"
 url: "https://berassil-abdelkader.web.app"
 keywords:
   - power systems
@@ -22,10 +22,10 @@ keywords:
   - machine learning
 abstract: >
   An independent research project proposing the Kadero Embedding: a
-  differentiable, multi-channel high-dimensional vector-space
-  representation of a power network, combining electrical, geographic,
-  redundancy-structure, and operating-point information, each channel
-  backed by a proof. Includes a complete mathematical foundation and an
-  honestly-reported, self-correcting empirical validation program across
-  IEEE 14-, 30-, 118-bus and a 300-bus test network. Archived openly for
-  extension by the power-systems and applied-mathematics community.
+  differentiable, multi-channel high-dimensional vector-space representation of a
+  power network, combining electrical, geographic, redundancy-structure, and
+  operating-point information, each channel backed by a proof. Includes a complete
+  mathematical foundation and an honestly-reported, self-correcting empirical
+  validation program across IEEE 14-, 30-, 118-bus and a 300-bus test network.
+  Archived openly for extension by the power-systems and applied-mathematics
+  community.
